@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Widevine DASH: MP4,H265",
+    "samples": [
+      {
+        "name": "WV: Secure SD & HD (MP4,H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      },
+      {
+        "name": "WV: Secure SD (MP4,H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_sd.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      },
+      {
+        "name": "WV: Secure HD (MP4,H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_hd.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      },
+      {
+        "name": "WV: Secure UHD (MP4,H265)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_uhd.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      }
+    ]
+  },
+  {
+    "name": "Offline Sample",
+    "offline_samples": [
+      {
+        "name": "Offline Video",
+        "download_uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_h264_main_480p_2000.mp4",
+        "offline_uri":"/exosample/video",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      }
+    ]
+  }
+]

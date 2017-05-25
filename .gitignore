@@ -1,0 +1,15 @@
+
+!/local.properties
+/demo/buildout/
+/demo/demo.iml
+/.idea/
+/buildout/
+/gradle/wrapper/
+/playbacktests/buildout/
+/testutils/buildout/
+/ExoPlayer-2.2.0-OfflineSample.iml
+/gradlew
+/gradlew.bat
+/local.properties
+/exoplayer-library-release/exoplayer-library-release.iml
+/extension-okhttp-release/extension-okhttp-release.iml
